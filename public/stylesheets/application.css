@@ -1,0 +1,44 @@
+.contact-names{
+/*  background-color: black;
+  color: white;*/
+  height: 900px;
+}
+
+.contact-info{
+/*  background-color: red;
+  color: white;*/
+  height: 900px;
+}
+
+.add-contact{
+  /*background-color: green;
+  color: white;
+  height: 100px;*/
+}
+
+.find-contact{
+/*  background-color: blue;
+  color: white;*/
+  height: 100px;
+}
+
+.form-control.contact-select{
+  height: 50%;
+  bottom: 10px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.btn-gray {
+  background-color: #cccccc;
+  color: #FFFFFF;
+}
+.btn-gray:hover {
+  opacity: : 0.8;
+}
+
+.in{
+  height: 250px!important; 
+}

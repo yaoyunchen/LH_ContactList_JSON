@@ -1,0 +1,73 @@
+<div class="container">
+  
+  <div class="row"> <!-- Title -->
+    <div class="col-sm-12 head">
+      <h1>Contact List App 4.0 <small>The app that just doesn't die</small></h1>      
+    </div>
+  </div>  <!-- Title -->
+
+
+  <!-- Display contacts and information -->
+  <div class="row contacts">
+    <div class="col-sm-6 contact-names">
+      <h2>Contacts</h2>
+
+      <!-- Select auto-populated -->
+      <select multiple class="form-control contact-select">
+      </select>
+
+      
+      <div class="panel panel-default">
+        <!-- Start panel one -->
+        <div class="panel-heading no-padding">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse_one" class="btn btn-gray btn-block panel-title">Search Contacts</a>
+        </div>
+
+        <div id="collapse_one" class="panel-collapse collapse"> 
+          <!-- Start search for contact -->
+          <div class="panel-body">
+            <form class="form find-contact">
+              <fieldset class="form-group">
+                <label for="find-term">Search</label>
+                <input type="text" class="form-control find-term">
+              </fieldset>
+              <input type="submit" class="btn btn-primary" value="Find Contact">
+            </form>
+          </div> 
+          <!-- End search for contact -->
+        </div> 
+        <!-- End panel one --> 
+
+        <!-- Start of panel one -->
+        <div class="panel-heading no-padding">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse_two" class="btn btn-gray btn-block panel-title">Add Contact</a>
+        </div>
+
+        <div id="collapse_two" class="panel-collapse collapse">
+          <!-- Start add a new contact -->
+          <div class="panel-body">
+            <form class="form add-contact">
+              <fieldset class="form-group">
+                <label for="add-name">Name</label>
+                <input type="text" class="form-control add-name">
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="add-email">Email</label>
+                <input type="email" class="form-control add-email">
+              </fieldset>
+              <input type="submit" class="btn btn-primary" value="Add Contact">
+            </form>
+          </div>
+          <!-- End add a new contact -->
+        </div>  
+        <!-- End of panel two -->
+      </div>
+    </div>
+    
+    <!-- Contact info is automatically loaded. -->
+    <div class="col-sm-6 contact-info">
+
+    </div>
+  </div>
+</div>
+
